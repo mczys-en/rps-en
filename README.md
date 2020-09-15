@@ -4,15 +4,15 @@
 
 ## 2 This is the simplest online guessing game android mobile app, excluding ios and pc. At present, I have edited the layout page xml, UI interface and simple page jump logic function. Please download the code details from my GitHub: mczys/Rpsj.
 
-## 3 Please use Kotlin for coding, which can reduce the amount of code and facilitate maintenance. If you use java to write the program, please convert to kotlin and verify that the debugging is passed. It is recommended to use jetpack components such as ViewModel, DataBinding+ViewBinding, etc. Resources such as strings are centrally stored and managed in the resource. I used ViewBinding when writing the front-end layout. FindViewById is no longer in the jump process, which reduces a lot of unnecessary null pointer logic verification, greatly reduces the amount of code, and is easy to maintain. At the same time, it improves the running speed and reduces various accidental conflicts. Bug.
+## 3 Please use Kotlin for coding, which can reduce the amount of code and facilitate maintenance. If you use java to write the program, please convert to kotlin and verify that the debugging is passed. It is recommended to use jetpack components such as ViewModel, DataBinding+ViewBinding, etc. 
 
 ## 4 For front-end development, please adhere to the principles of concise code, stable operation, and safety protection, and try to use automated operation and maintenance programs.
 
 # * front-end Android APP development content
 ## 1 Registration and login function (activiti_main)
-### 1-1 To make the registration and login function (the only method), please use the Biometric biometric (fingerprint) verification encryption solution after android 4.0 version.
+1-1 To make the registration and login function (the only method), please use the Biometric biometric (fingerprint) verification encryption solution after android 4.0 version.
 
-### 1-2 Save fingerprint registration login verification function (client and server)
+1-2 Save fingerprint registration login verification function (client and server)
 
 ### 1-3 Set the default save automatic login function. That is, you can log in automatically without fingerprint verification. If you cancel the default function, you need to log in with fingerprint verification every time.
 
